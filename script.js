@@ -13,9 +13,9 @@ document.getElementById("generate-color-btn").addEventListener("click", () => {
     isBlueTheme = !isBlueTheme;
     
     // Définir la couleur en fonction de l'état
-    const color = isBlueTheme ? "black" : "";
-    const iconColor = isBlueTheme ? "black" : "";
-    const bgColor = isBlueTheme ? "black" : "";
+    const color = isBlueTheme ? "orange" : "";
+    const iconColor = isBlueTheme ? "orange" : "";
+    const bgColor = isBlueTheme ? "orange" : "";
 
     // Appliquer ou supprimer les styles
     profiles.forEach(profile => {
