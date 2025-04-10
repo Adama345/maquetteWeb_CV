@@ -1,5 +1,5 @@
 const educations = document.querySelectorAll('.education');
-const contact_i = document.querySelectorAll('.contact .info p i');
+const contact_i = document.querySelectorAll('.contact .info p i,.contact .titres .icon i,.ajust .titres .icon i');
 const about_icon = document.querySelectorAll('.section .gridcv .professionabout .about .titres .icon');
 const exp_icon = document.querySelectorAll('.section .gridcv .professionabout .experience .titres .icon');
 const comp_icon = document.querySelectorAll('.section .gridcv .professionabout .competence .titres .icon');
