@@ -1,6 +1,7 @@
 const educations = document.querySelectorAll('.education');
 const contact_i = document.querySelectorAll('.contact .info p i,.contact .titres .icon i,.ajust .titres .icon i');
-const about_icon = document.querySelectorAll('.section .gridcv .professionabout .about .titres .icon');
+const about_icon = document.querySelectorAll('.section .gridcv .professionabout .about .titres .icon,    .contact .titres .icon,.ajust .titres .icon');
+const abouts_icon = document.querySelectorAll(' .contact .titres .icon,.ajust .titres .icon');
 const exp_icon = document.querySelectorAll('.section .gridcv .professionabout .experience .titres .icon');
 const comp_icon = document.querySelectorAll('.section .gridcv .professionabout .competence .titres .icon');
 const progressbar = document.querySelectorAll('.section .gridcv .professionabout .competence .ulgrid ul li .barre .progressbar,.progressbar1,.progressbar2,.progressbar3,.progressbar4');
@@ -40,6 +41,9 @@ document.getElementById("generate-color-btn").addEventListener("click", () => {
 
     about_icon.forEach(icon => {
         icon.style.backgroundColor = bgColor;
+    });
+    abouts_icon.forEach(icon => {
+        icon.style.backgroundColor = "white";
     });
 
     contact_i.forEach(icon => {
